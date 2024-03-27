@@ -36,10 +36,10 @@ const { //This variables must be in the .env file, in order to work (like .env.e
 
 const config: HardhatUserConfig = {
   solidity: {
-    version: "0.8.1",
+    version: "0.8.24",
     settings: {
       optimizer: {
-        enabled: true,
+        enabled: false,
         runs: 200,
       }
     }
@@ -68,9 +68,7 @@ const config: HardhatUserConfig = {
   },
   etherscan: {
     apiKey: {
-        goerli: ETH_SCAN_API_KEY,
-        polygonMumbai: POLYGON_SCAN_API_KEY,
-        bscTestnet: BSC_SCAN_API_KEY,
+        sepolia:'XFH9GAR2P7I7F3HC3V5W9PFM5QANHKB51C',
     }
   },
   mocha: {

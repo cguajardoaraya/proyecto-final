@@ -7,6 +7,7 @@
     "test": "hardhat test"
   },
   "devDependencies": {
+    "@nomicfoundation/hardhat-verify": "^2.0.5",
     "@nomiclabs/buidler": "^1.4.8",
     "@nomiclabs/hardhat-ethers": "^2.0.3",
     "@nomiclabs/hardhat-etherscan": "^3.1.0",

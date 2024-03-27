@@ -3,13 +3,19 @@
 //
 // When running the script with `npx hardhat run <script>` you'll find the Hardhat
 // Runtime Environment's members available in the global scope.
-import {ethers} from "hardhat";
+const hre = require("hardhat");
 
 // scripts/deploy.js
 async function main() {
   const Operaciones = await ethers.getContractFactory("Operaciones");
   const OperacionesDeploy = await Operaciones.deploy();
   console.log("Operaciones:", OperacionesDeploy.address);
+
+    await hre.run("verify:verify", {
+      
+      address: OperacionesDeploy.address,
+    });
+
 }
 
 main()

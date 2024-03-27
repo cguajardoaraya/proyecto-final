@@ -21,7 +21,6 @@ export type { Money } from "./Money";
 export type { NFT1155 } from "./NFT1155";
 export type { NFT721 } from "./NFT721";
 export type { ColeccionablesERC1155 } from "./ColeccionablesERC1155";
-export type { ColeccionablesDeportivosERC721 } from "./ColeccionablesDeportivosERC721";
 export type { ColeccionablesERC721 } from "./ColeccionablesERC721";
 export type { PlataformaColeccionables } from "./PlataformaColeccionables";
 
@@ -45,6 +44,5 @@ export { Money__factory } from "./factories/Money__factory";
 export { NFT1155__factory } from "./factories/NFT1155__factory";
 export { NFT721__factory } from "./factories/NFT721__factory";
 export { ColeccionablesERC1155__factory } from "./factories/ColeccionablesERC1155__factory";
-export { ColeccionablesDeportivosERC721__factory } from "./factories/ColeccionablesDeportivosERC721__factory";
 export { ColeccionablesERC721__factory } from "./factories/ColeccionablesERC721__factory";
 export { PlataformaColeccionables__factory } from "./factories/PlataformaColeccionables__factory";

@@ -1,5 +1,5 @@
 import { ethers } from "hardhat";
-
+const hre = require("hardhat");
 
 
 // scripts/deploy.js

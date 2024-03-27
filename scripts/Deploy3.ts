@@ -9,6 +9,7 @@ async function main() {
     const DataERC1155 = await ERC1155.deploy("https://example.com/api/token/{id}.json");
   
     console.log("ColeccionablesDeportivosERC1155 deployed to:", DataERC1155.address);
+
   }
   
   main()

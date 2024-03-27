@@ -93,10 +93,6 @@ declare module "hardhat/types/runtime" {
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ColeccionablesERC1155__factory>;
     getContractFactory(
-      name: "ColeccionablesDeportivosERC721",
-      signerOrOptions?: ethers.Signer | FactoryOptions
-    ): Promise<Contracts.ColeccionablesDeportivosERC721__factory>;
-    getContractFactory(
       name: "ColeccionablesERC721",
       signerOrOptions?: ethers.Signer | FactoryOptions
     ): Promise<Contracts.ColeccionablesERC721__factory>;
@@ -205,11 +201,6 @@ declare module "hardhat/types/runtime" {
       address: string,
       signer?: ethers.Signer
     ): Promise<Contracts.ColeccionablesERC1155>;
-    getContractAt(
-      name: "ColeccionablesDeportivosERC721",
-      address: string,
-      signer?: ethers.Signer
-    ): Promise<Contracts.ColeccionablesDeportivosERC721>;
     getContractAt(
       name: "ColeccionablesERC721",
       address: string,
